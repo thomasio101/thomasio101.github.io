@@ -1,0 +1,86 @@
+.time-line {
+  --background: #ffbe76;
+  --border: #f0932b;
+  --text-color: #686de0;
+
+  list-style: none;
+  margin: 4pt;
+  padding: 0;
+  color: var(--text-color);
+  background-color: var(--background);
+  border-radius: 6pt;
+  box-shadow: 2pt 2pt var(--border);
+}
+
+.time-line > li {
+  padding: 0 4pt;
+  border-top: 1pt solid var(--border);
+  border-bottom: 1pt solid var(--border);
+}
+
+.time-line > li:first-child {
+  border-top: none;
+}
+
+.time-line > li:last-child {
+  border-bottom: none;
+}
+
+.time-line-item {
+  text-align: left;
+  display: flex;
+}
+
+.time-line-item > img {
+  object-fit: scale-down;
+  max-width: 25%;
+  width: auto;
+  height: auto;
+}
+
+.time-line-item .data {
+  display: flex;
+}
+
+.time-line-item .data > .data-labels,
+.time-line-item .data > .data-values {
+  display: flex;
+  flex-direction: column;
+  padding: 1pt 2pt;
+}
+
+.time-line-item .data > .data-labels {
+  text-align: right;
+}
+
+body {
+  --primary: #c7ecee;
+  --background: #535c68;
+  --border: #30336b;
+  --frame: #686de0;
+
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background-color: var(--frame);
+}
+
+main {
+  text-align: center;
+  width: 50%;
+  margin: 0 auto;
+  padding: 4pt;
+  box-shadow: 2pt 2pt var(--border);
+  border-radius: 5pt;
+  background-color: var(--background);
+  color: var(--primary);
+}
+
+h1 {
+  margin: 4pt;
+}
+
+p {
+  font-weight: 600;
+
+  padding-bottom: 4pt;
+}
+
