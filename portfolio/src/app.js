@@ -103,28 +103,33 @@ export class App {
       description: `Express is by far my most used framework as its middleware-centered architecture enables a gradual development process.
       Besides this, its flexibility allows me to develop apps that cater to very specific needs, without the bloat which frameworks such as
       ASP.NET Core come with.`,
-      imageSrc: "express.png"
-    }
+      imageSrc: "express.png",
+    },
+    {
+      title: "Flutter",
+      description: `I've used Flutter on multiple occasions to provide native experiences to my web apps' users.`,
+      imageSrc: "flutter.png",
+    },
   ];
 
   languages = [
     {
-      title: "JavaScript"
+      title: "JavaScript",
     },
     {
-      title: "TypeScript"
+      title: "TypeScript",
     },
     {
-      title: "Python"
+      title: "Python",
     },
     {
-      title: "C#"
+      title: "C#",
     },
     {
-      title: "Java"
+      title: "Java",
     },
     {
-      title: "Dart"
-    }
-  ]
+      title: "Dart",
+    },
+  ];
 }
