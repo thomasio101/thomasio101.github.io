@@ -106,4 +106,25 @@ export class App {
       imageSrc: "express.png"
     }
   ];
+
+  languages = [
+    {
+      title: "JavaScript"
+    },
+    {
+      title: "TypeScript"
+    },
+    {
+      title: "Python"
+    },
+    {
+      title: "C#"
+    },
+    {
+      title: "Java"
+    },
+    {
+      title: "Dart"
+    }
+  ]
 }

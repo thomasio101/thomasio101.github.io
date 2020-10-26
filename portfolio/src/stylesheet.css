@@ -19,6 +19,12 @@ main {
   color: var(--primary);
 }
 
+@media screen and (max-width: 90em) {
+  main {
+    min-width: 85%;
+  }
+}
+
 h1 {
   margin: 4pt;
 }
