@@ -104,6 +104,11 @@ export class App {
       Besides this, its flexibility allows me to develop apps that cater to very specific needs, without the bloat which frameworks such as
       ASP.NET Core come with.`,
       imageSrc: "express.png"
+    },
+    {
+      title: "Flutter",
+      description: `I've used Flutter on multiple occasions to provide native experiences to my web apps' users.`,
+      imageSrc: "flutter.png"
     }
   ];
 
