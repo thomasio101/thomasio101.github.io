@@ -36,7 +36,6 @@
   object-fit: scale-down;
   max-width: 25%;
   width: auto;
-  height: auto;
 }
 
 .time-line-item > .content {
@@ -77,6 +76,12 @@ main {
   border-radius: 5pt;
   background-color: var(--background);
   color: var(--primary);
+}
+
+@media screen and (max-width: 90em) {
+  main {
+    min-width: 85%;
+  }
 }
 
 h1 {
