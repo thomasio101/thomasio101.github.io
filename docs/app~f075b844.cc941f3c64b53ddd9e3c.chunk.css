@@ -1,6 +1,7 @@
 .time-line {
   --background: #badc58;
   --border: #6ab04c;
+  --shadow: #30336b;
   --text-color: #686de0;
 
   list-style: none;
@@ -9,7 +10,7 @@
   color: var(--text-color);
   background-color: var(--background);
   border-radius: 6pt;
-  box-shadow: 2pt 2pt var(--border);
+  box-shadow: 2pt 2pt var(--shadow);
 }
 
 .time-line > li {
