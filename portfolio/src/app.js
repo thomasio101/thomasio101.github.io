@@ -61,4 +61,49 @@ export class App {
       ],
     },
   ];
+
+  frameworks = [
+    {
+      title: "Aurelia",
+      description: `I've used Aurelia to develop a large internal application at Expert Meijer, over the course of developing
+      this application I learnt to apply creative thinking and good software engineering principles to increase my productivity to a
+      level which is nearly unatainable with other frameworks. Besides this, this portfolio has also been made using Aurelia!`,
+      imageSrc: "aurelia.svg",
+      data: [
+        {
+          label: "Demo",
+          value: "This portfolio on GitHub",
+          url: "https://github.com/thomasio101/thomasio101.github.io/",
+        },
+      ],
+    },
+    {
+      title: "React",
+      description: `Since the addition of React hooks, React has become one of the best frameworks out there.
+      I've primarily used React to develop small SPAs, though I've also made my fair share of React apps containing dozens of
+      pages, complex business logic and real-time communication with the server. My most complex React project to-date was the
+      predecessor of the Aurelia-based internal application at Expert Meijer.`,
+      imageSrc: "react.png",
+    },
+    {
+      title: "VueJS",
+      description: `Vue was one of the first proper UI frameworks I ever used. Even though I don't use it much anymore,
+      I still take it into consideration whenever I start to develop a new application.`,
+      imageSrc: "vue.png",
+    },
+    {
+      title: "ASP.NET Core",
+      description: `After having used it to build back ends for various applications, I can say the robust ecosystem
+      Microsoft has created drastically improves my productivity in developing large CRUD apps, though it does ocassionally make
+      me long for the flexibility stacks such as Express with Node provide.`,
+      imageSrc: "asp.netCore.png",
+    },
+    {
+      title: "Express",
+      description: `Express is by far my most used framework as its middleware-centered architecture enables a gradual development process.
+      Besides this, its flexibility allows me to develop apps that cater to very specific needs, without the bloat which frameworks such as
+      ASP.NET Core come with.`,
+      imageSrc: "express.png"
+    }
+  ];
 }

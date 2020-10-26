@@ -15,7 +15,10 @@
             >
           </div>
           <div class="data-values">
-            <span repeat.for="dataEntry of item.data">${dataEntry.value}</span>
+            <span repeat.for="dataEntry of item.data">
+              <span if.bind="dataEntry.url == null">${dataEntry.value}</span>
+              <a else href.bind="dataEntry.url">${dataEntry.value}</a>
+            </span>
           </div>
         </div>
       </div>
