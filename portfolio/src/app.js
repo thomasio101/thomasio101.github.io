@@ -16,7 +16,7 @@ export class App {
       ],
     },
     {
-      title: "TDM Digital Signage (BlueRed)",
+      title: "TDM Digital Signage (Blue and Red)",
       description: `At BlueRed I was tasked with the initial phase of developing a brand-new product,
       expanding the company into new and diverse markets. Here, I gained valuable experience in developing
       scalable web applications and coordinating with management.`,
